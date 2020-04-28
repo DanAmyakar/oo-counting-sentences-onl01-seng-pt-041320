@@ -2,15 +2,24 @@ require 'pry'
 
 class String
 
-  def sentence?
-    
+  def sentence?(arg)
+    if arg.last[] == "."
+      true
+    else
+      false
+    end
   end
 
-  def question?
-
+  def question?(arg)
+    if arg.last[] == "?"
+      true
+    else
+      false
+    end
   end
 
-  def exclamation?
+  def exclamation?(arg)
+    if arg.last
 
   end
 
