@@ -19,8 +19,11 @@ class String
   end
 
   def exclamation?(arg)
-    if arg.last
-
+    if arg.last[] == "!"
+      true
+    else
+      false
+    end
   end
 
   def count_sentences
