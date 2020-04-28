@@ -2,8 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?(arg)
-    if arg.last[] == "."
+  def sentence?
+    if String.last[] == "."
       true
     else
       false
